@@ -20,9 +20,6 @@
     <!-- fav icon link -->
     <link rel="shortcut icon" href="images/fav.svg" type="image/x-icon">
 
-    <!-- css link -->
-    <link rel="stylesheet" href="css/style.css">
-
     <script>
         tailwind.config = {
             theme: {
@@ -34,6 +31,18 @@
             }
         }
     </script>
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .team-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/banner1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body class="font-lato">
@@ -181,7 +190,8 @@
             </div>
         </section>
         <!-- food items section -->
-        <section class="bg-white w-4/5 z-50 relative mx-auto md:-mt-14 lg:-mt-20 rounded-lg p-5 hidden md:block lg:block">
+        <section
+            class="bg-white w-4/5 z-50 relative mx-auto md:-mt-14 lg:-mt-20 rounded-lg p-5 hidden md:block lg:block shadow-lg">
             <div class="flex justify-between text-center items-center">
                 <div>
                     <img src="images/fruit1.png" alt="">
@@ -215,9 +225,9 @@
             <div class="flex justify-between flex-col md:flex-row lg:flex-row px-5">
                 <div class="flex-1 space-y-3">
                     <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold">Deal of the day</h2>
-                    <p class="text-sm md:text-base lg:text-base font-medium">Contrary to popular belief, is not simply
-                        random text. It has roots
-                        in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="text-sm md:text-base lg:text-base font-medium">Don't miss out on the opportunity to enjoy
+                        premium quality fruits at special discounted prices. Treat yourself to great deals and elevate
+                        your fruit experience today!</p>
                 </div>
                 <div class="flex-1 items-center flex justify-center lg:justify-end md:justify-end mt-4 md:mt-0 lg:mt-0">
                     <div class="grid grid-flow-col gap-0 md:gap-5 lg:gap-5 text-center auto-cols-max">
@@ -479,10 +489,10 @@
                     <div class="space-y-4">
                         <h2 class="text-center text-2xl md:text-3xl lg:text-5xl font-extrabold text-white">Meet the team
                             section</h2>
-                        <p class="text-center text-sm md:text-base lg:text-base font-medium text-white">Contrary to
-                            popular belief, is not
-                            simply random text. It has roots in a piece of classical Latin literature <br> from 45 BC,
-                            making it over 2000 years old.</p>
+                        <p class="text-center text-sm md:text-base lg:text-base font-medium text-white">A dedicated
+                            group of professionals from various backgrounds, united by a passion for excellence. <br>
+                            Together, we strive to deliver exceptional results through collaboration, innovation, and
+                            unwavering commitment to our shared vision.</p>
                     </div>
                     <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
                         <div class="flex flex-col items-center space-y-2">
@@ -498,7 +508,7 @@
                         <div class="flex flex-col items-center space-y-2">
                             <img class="" src="images/member3.png" alt="">
                             <h2 class="text-center text-2xl font-bold text-white">Rokib Hossain</h2>
-                            <p class="text-center text-base font-medium text-white">Fruits Expert</p>
+                            <p class="text-center text-base font-medium text-white">App Developer</p>
                             <div class="flex justify-between space-x-2">
                                 <img src="images/facebook.svg" alt="">
                                 <img src="images/twitter.svg" alt="">
@@ -508,7 +518,7 @@
                         <div class="flex flex-col items-center space-y-2">
                             <img class="" src="images/member4.png" alt="">
                             <h2 class="text-center text-2xl font-bold text-white">Chaity</h2>
-                            <p class="text-center text-base font-medium text-white">Fruits Expert</p>
+                            <p class="text-center text-base font-medium text-white">Manager</p>
                             <div class="flex justify-between space-x-2">
                                 <img src="images/facebook.svg" alt="">
                                 <img src="images/twitter.svg" alt="">
@@ -518,7 +528,7 @@
                         <div class="flex flex-col items-center space-y-2">
                             <img class="" src="images/member1.png" alt="">
                             <h2 class="text-center text-2xl font-bold text-white">Awlad Hossain</h2>
-                            <p class="text-center text-base font-medium text-white">Fruits Expert</p>
+                            <p class="text-center text-base font-medium text-white">CEO</p>
                             <div class="flex justify-between space-x-2">
                                 <img src="images/facebook.svg" alt="">
                                 <img src="images/twitter.svg" alt="">
@@ -531,14 +541,17 @@
         <section class="container mx-auto my-14">
             <div class="space-y-4">
                 <h1 class="text-center font-extrabold text-5xl">Why Choose Us</h1>
-                <p class="text-center font-medium text-base">Contrary to popular belief, is not simply random text. It
-                    has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
+                <p class="text-center font-medium text-base">Welcome to our fruit website! Experience the juiciest,
+                    freshest, and most flavorful fruits delivered right to your doorstep. <br> We source directly from
+                    trusted growers, ensuring superior quality and sustainability. Choose us for a delightful and
+                    nourishing journey <br> into the world of fruits that will leave you wanting to savor nature's
+                    bounty again and again.
                 </p>
             </div>
 
             <!-- left side -->
             <div class="flex flex-col md:flex-col lg:flex-row justify-between gap-10 mt-7">
-                <div class="space-y-6">
+                <div class="space-y-6 lg:w-1/3 md:w-full w-full">
                     <div class="flex flex-col md:flex-col lg:flex-row items-center">
                         <div class="w-1/5">
                             <img class="w-4/5" src="images/group.svg" alt="">
@@ -546,8 +559,9 @@
                         <div class="space-y-2 flex flex-col items-center md:flex md:flex-col md:items-center lg:block">
                             <h2 class="font-extrabold text-2xl">Dedicated Team</h2>
                             <hr class="w-2/6 bg-black">
-                            <p class="text-base font-medium text-center md:text-center lg:text-left">Professional
-                                employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-base font-medium text-center md:text-center lg:text-left ">Our team is
+                                dedicated because we are deeply committed to delivering the best possible experience to
+                                our customers.</p>
                         </div>
                     </div>
                     <div class="flex flex-col md:flex-col lg:flex-row items-center">
@@ -557,8 +571,9 @@
                         <div class="space-y-2 flex flex-col items-center md:flex md:flex-col md:items-center lg:block">
                             <h2 class="font-extrabold text-2xl">Fresh is Best</h2>
                             <hr class="w-2/6 bg-black">
-                            <p class="text-base font-medium text-center md:text-center lg:text-left">Professional
-                                employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-base font-medium text-center md:text-center lg:text-left">The natural flavors
+                                and textures of fresh fruit provide a delightful eating experience, making it a
+                                delicious and enjoyable way to incorporate essential nutrients into your diet.</p>
                         </div>
                     </div>
                     <div class="flex flex-col md:flex-col lg:flex-row items-center">
@@ -568,19 +583,20 @@
                         <div class="space-y-2 flex flex-col items-center md:flex md:flex-col md:items-center lg:block">
                             <h2 class="font-extrabold text-2xl">Gift Certificates</h2>
                             <hr class="w-2/6 bg-black">
-                            <p class="text-base font-medium text-center md:text-center lg:text-left">Professional
-                                employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p class="text-base font-medium text-center md:text-center lg:text-left">To purchase a gift
+                                certificate, visit our fruit website and navigate to the "Gift Certificates" section.
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- middle side -->
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center lg:w-1/3 w-full md:w-full">
                     <img src="images/whychoose1.png" alt="">
                 </div>
 
                 <!-- right side -->
-                <div class="space-y-6">
+                <div class="space-y-6 lg:w-1/3 w-full md:w-full">
                     <div class="flex lg:flex-row-reverse md:flex-col flex-col items-center space-y-3">
                         <div class="w-1/5">
                             <img class="w-4/5" src="images/fruit.svg" alt="">
@@ -590,8 +606,8 @@
                             <div class=" flex lg:justify-end md:justify-center justify-center">
                                 <hr class="w-2/6 bg-black">
                             </div>
-                            <p class="text-base font-medium">Professional employees are there for you to pick the most
-                                amazing and fresh fruits.</p>
+                            <p class="text-base font-medium">Some examples include apples, oranges, bananas, berries,
+                                grapes, melons, pineapples, and more.</p>
                         </div>
                     </div>
                     <div class="flex lg:flex-row-reverse md:flex-col flex-col items-center space-y-3">
@@ -603,8 +619,8 @@
                             <div class=" flex lg:justify-end md:justify-center justify-center">
                                 <hr class="w-2/6 bg-black">
                             </div>
-                            <p class="text-base font-medium">Professional employees are there for you to pick the most
-                                amazing and fresh fruits.</p>
+                            <p class="text-base font-medium">Enjoy our fruits with peace of mind, knowing that we're
+                                striving to make a positive impact on the planet.</p>
                         </div>
                     </div>
                     <div class="flex lg:flex-row-reverse md:flex-col flex-col items-center space-y-3">
@@ -616,8 +632,9 @@
                             <div class=" flex lg:justify-end md:justify-center justify-center">
                                 <hr class="w-2/6 bg-black">
                             </div>
-                            <p class="text-base font-medium">Professional employees are there for you to pick the most
-                                amazing and fresh fruits.</p>
+                            <p class="text-base font-medium">Don't forget about the power of apples, which contain
+                                immune-enhancing antioxidants and dietary fiber. Incorporating these fruits into your
+                                diet can contribute to a stronger immune system.</p>
                         </div>
                     </div>
                 </div>
@@ -626,26 +643,27 @@
 
     <!-- footer -->
     <footer class="footer footer-center p-10 bg-[#121212] text-base-content rounded">
-        <a class="flex justify-center items-center text-white font-bold text-2xl md:text-4xl lg:text-4xl"><img class="mr-3" src="images/logo.png" alt=""> Fruit Burst</a>
+        <a class="flex justify-center items-center text-white font-bold text-2xl md:text-4xl lg:text-4xl"><img
+                class="mr-3" src="images/logo.png" alt=""> Fruit Burst</a>
         <nav class="flex gap-8 flex-wrap justify-center text-white">
-          <a class="link link-hover">Home</a> 
-          <a class="link link-hover">About us</a> 
-          <a class="link link-hover">Shop</a> 
-          <a class="link link-hover">All Fruits</a> 
-          <a class="link link-hover">Support</a>
-          <a class="link link-hover">My Account</a>
-        </nav> 
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All Fruits</a>
+            <a class="link link-hover">Support</a>
+            <a class="link link-hover">My Account</a>
+        </nav>
         <nav>
-          <div class="lg:space-x-5 md:space-x-3 space-x-2 flex justify-center items-center">
-            <a><img src="images/twitter-1.svg" alt=""></a> 
-            <a><img src="images/facebook-1.svg" alt=""></a> 
-            <a><img src="images/youtube.svg" alt=""></a>
-            <a><img src="images/linkedin-1.svg" alt=""></a>
-            <a><img src="images/instagram.svg" alt=""></a>
-            <a><img src="images/apple.svg" alt=""></a>
-          </div>
-        </nav> 
-      </footer>
+            <div class="lg:space-x-5 md:space-x-3 space-x-2 flex justify-center items-center">
+                <a><img src="images/twitter-1.svg" alt=""></a>
+                <a><img src="images/facebook-1.svg" alt=""></a>
+                <a><img src="images/youtube.svg" alt=""></a>
+                <a><img src="images/linkedin-1.svg" alt=""></a>
+                <a><img src="images/instagram.svg" alt=""></a>
+                <a><img src="images/apple.svg" alt=""></a>
+            </div>
+        </nav>
+    </footer>
 </body>
 
 </html>
